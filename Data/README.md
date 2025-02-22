@@ -1,4 +1,4 @@
-##### Lisa Kiefer                    CS-150
+##### Lisa Kiefer CS-150
 
 # *Air Pollution among Californian Counties in 2024*
 
@@ -7,7 +7,15 @@
 ### Context
 
 #### According to the American Lung Association, California is considered one of the states with the worst air pollution. But California is a large state, and the air pollution can vary greatly between different locations. Looking at the Air Quality Index of each individual county can give more insight of how the air pollution is spread across the state. Knowing where certain hotspots for bad air quality in California are, one can assure for adequate protection if possible, and further research can be done to implement solutions. 
+
 #### The Air Quality Index is a measurement from the Environmental Protection Agency that categorizes the air quality in six different categories based on the amount of pollutants such as ozone, nitrogen oxides and particulate matter. The six categories are 'Good', 'Moderate', 'Unhealthy for Sensitive Groups', 'Unhealthy', 'Very Unhealthy', and 'Hazardous'.
 
+#### My audience will consist mostly of students at Westmont College, with many coming from California. Since we all did the same discussion questions, I am confident that they will be familiar with the Air Quality Index and also with reading bar graphs as we have been exposed to them in this class already. Since I am a student in this class myself, they will know that I am at least familiar with the topic, however as a student I am not very experienced and therefore need to make sure that I appear confident and can answer potential questions adequately to uphold credibility. After the presentation I want my audience to know about the specific areas in California that are more prone to bad air quality and be motivated to engage further into this topic. 
+
+#### Since I will be giving a live presentation, I have full control over what the audience sees and do not have to explain every detail because I can directly answer questions if some arise. I want ot keep the tone of the presentation professional but not super strict as the goal is to increase the engagement of my audience with this topic. The data I will be using has the amount of days for each one of the six categories of the Air Quality Index from last year recorded for each county in California, and by visualizing the data the audience should be able to identify the counties with the worst air pollution according to the highest number of days in the bad categories.
+
 ### Data
-####
+#### I downloaded a CSV file from one of the pre-generated data files from the EPA-website. The file has the AQI of the counties in 2024, with multiple columns like the state of the counties, the counties name, the number of days for each different AQI categories, and then the number of days high levels of particular pollutants were found. While the additional data is informative as well, for the purpose of my presentation I just used the state, the county, and the six AQI categories columns. For more detailed research I think the other columns can be considered into the data visualization as well. Unfortunately some counties had not a lot of AQIs recorded for each day of the year in 2024, so the total of the days of all six categories do not add up to 365, but the most populated counties (and therefore the arguable mos important ones) had a value for almost each day,so I still considered it suitable for analysis.
+
+### Strategies
+#### Since I had many values for my x-axis (the Californians counties), I decided to go with a bar graph as most people are familiar with reading them and can therefore handle a decent amount of columns. The counties on the x-axis and the number of days of the AQI category on the y-axis, and the user can decide  which category they want to see displayed and how many. I adjusted the coloring of the bars displayed for each category with its associated value, so Good Days are displayed green, Moderate yellow, unhealthy red and so on. I also made sure that my graph as a zero-baseline for the y-axis and that the bars themselves were not too wide or too close to each other so that the graph was visually appealing. And I kept the descriptive texts such as the title and axis labels in a simple font and color to have the focus of the attention on the plot in the middle of the dashboard.
